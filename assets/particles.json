@@ -1,23 +1,26 @@
 {
   "particles": {
     "number": {
-      "value": 10,
+      "value": 40,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": ["#dc052d"]
+      "value": ["#f16d00"]
     },
     "shape": {
-      "type": "polygon",
+      "type": "image",
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
       "polygon": {
         "nb_sides": 4
+      },
+      "image": {
+        "src": "assets/img/particle.png"
       }
     },
     "opacity": {
