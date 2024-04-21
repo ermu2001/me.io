@@ -36,7 +36,7 @@ show_aboutme_card: true
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
 about_me_description: |
-  👋 Sup, How's it going? 
+  👋 Sup, How you doing? 
   <p> 
   👀 My name is Yilin Zhao, originally from Shenzhen, China. I am currently pursuing graduate studies at New York University and getting to love this vibrant city</p>
   <p> 
@@ -62,7 +62,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: /assets/Yilin_Zhao.pdf
+cv_download_link: /me.io/assets/Yilin_Zhao.pdf
 
 # PROJECTS SECTION
 # show_projects_card:
