@@ -25,24 +25,24 @@ p {
   word-spacing: 0.1rem; }
 
 a {
-  color: #ff073a;
+  color: #f16d00;
   text-decoration: none; }
   a:hover {
     color: #fff; }
 
 .highlight-title {
-  color: #ff073a;
-  text-shadow: 0.25rem 0.25rem 0.25rem #ff073a; }
+  color: #f16d00;
+  text-shadow: 0.25rem 0.25rem 0.25rem #f16d00; }
 
 .highlight-link {
-  box-shadow: inset 0 -0.125rem 0 #ff073a;
+  box-shadow: inset 0 -0.125rem 0 #f16d00;
   box-sizing: border-box;
-  color: #ff073a;
+  color: #f16d00;
   display: inline-block;
   padding: 0.125rem 0.125rem;
   transition: all 0.2s ease-in-out; }
   .highlight-link:hover {
-    box-shadow: inset 0 -2rem 0 0 #ff073a;
+    box-shadow: inset 0 -2rem 0 0 #f16d00;
     color: #fff; }
 
 /* Layout */
@@ -109,12 +109,12 @@ a {
     background: #fff; }
   #preloader .load :nth-child(2) {
     animation-delay: -1s;
-    background: #ff073a; }
+    background: #f16d00; }
   #preloader .load :nth-child(3) {
     animation-delay: -0.5s;
     background: #fff; }
   #preloader .load :last-child {
-    background: #ff073a; }
+    background: #f16d00; }
 @keyframes spin {
   0%,
     100% {
@@ -134,14 +134,16 @@ a {
   text-align: center; }
 
 .footer a {
-  color: #ff073a; }
+  color: #f16d00; }
   .footer a:hover, .footer a:focus {
     background: black;
     color: #fff; }
 
 /* Landing Page */
 #landing {
-  background: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url("{{ "/assets/img/cqsl.jpg" | prepend: site.baseurl }}") no-repeat top center scroll;
+  background-size: 100% auto;
   color: #fff;
   display: flex;
   height: 100%;
@@ -283,7 +285,7 @@ a {
 .timeline-wrapper .timeline li {
   padding: 1rem 0; }
 .timeline-wrapper .hexagon {
-  background: #ff073a;
+  background: #f16d00;
   height: 0.5rem;
   left: 0;
   margin-left: auto;
@@ -302,10 +304,10 @@ a {
   left: 0;
   position: absolute; }
 .timeline-wrapper .hexagon:before {
-  border-bottom: 0.25rem solid #ff073a;
+  border-bottom: 0.25rem solid #f16d00;
   top: -0.25rem; }
 .timeline-wrapper .hexagon:after {
-  border-top: 0.25rem solid #ff073a;
+  border-top: 0.25rem solid #f16d00;
   bottom: -0.25rem; }
 .timeline-wrapper .flag-wrapper {
   position: relative;
@@ -320,7 +322,7 @@ a {
     transition: 0.4s; }
   .timeline-wrapper .flag span:after {
     content: "\226B";
-    color: #ff073a;
+    color: #f16d00;
     position: absolute;
     opacity: 0;
     right: -1rem;
@@ -392,7 +394,7 @@ a {
     .contact-icons .social-link .social {
       font-size: 1.5rem; }
     .contact-icons .social-link .social-svg {
-      fill: #ff073a; }
+      fill: #f16d00; }
     .contact-icons .social-link:hover {
       cursor: pointer;
       animation: jump 1s infinite alternate; }
@@ -453,7 +455,7 @@ a {
     #skills .filter-button:hover {
       letter-spacing: 0.25rem; }
   #skills input[type="radio"]:checked + .filter-button {
-    color: #ff073a;
+    color: #f16d00;
     font-weight: 600;
     background: linear-gradient(150deg, rgba(20, 20, 20, 0.4) 10%, rgba(115, 115, 115, 0.15) 80%);
     box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4), -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4), inset -1px -2px 2px rgba(210, 210, 210, 0.4); }
@@ -576,4 +578,4 @@ a {
   100% {
     bottom: 0; } }
 
-/*# sourceMappingURL=main.min.css.map */
+/*# sourceMappingURL=my.css.map */

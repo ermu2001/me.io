@@ -17,45 +17,36 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
-  tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: New York University
+  title-url: https://www.nyu.edu/
+  date: 2023 - Present
+  subtitle: M.Sc. Computer Engineering, New York, US
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+    - tag: Machine Learning
+    - tag: Deep Learning
+    - tag: Computer Engineering
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Baidu Inc. ERNIE
+  title-url: https://wenxin.baidu.com/
+  date: Dec 2022 - Aug 2023
+  subtitle: Intern Research & Developer, Shenzhen, China
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: Pytorch
+    - tag: Python
+    - tag: Generative AI
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Nankai University
+  title-url: https://en.nankai.edu.cn/
+  date: 2019 - 2023
+  subtitle: B.A. Computer Science, Tianjin, China
+  tags:
+    - tag: Deep Learning
+    - tag: Computer Vision
+    - tag: Natural Language Processing
+    - tag: Operating System
+    - tag: Compiler
+    - tag: Algorithms & Data Structures
   timeline-side: left
