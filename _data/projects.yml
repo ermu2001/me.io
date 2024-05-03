@@ -15,7 +15,7 @@
 
 - name: PLLAVA
   descr: "SOTA Video Large Language Model"
-  demo: "pllava.github.io"
+  demo: "http://pllava.github.io"
   tags:
     - tag: pytorch
     - tag: python
