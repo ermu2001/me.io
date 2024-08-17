@@ -20,13 +20,23 @@
 
 - title: New York University
   title-url: https://www.nyu.edu/
-  date: 2023 - Present
+  date: Sep 2023 - Present
   subtitle: M.Sc. Computer Engineering, New York, US
   tags:
     - tag: Machine Learning
     - tag: Deep Learning
     - tag: Computer Engineering
   timeline-side: left
+
+- title: Nvidia
+  title-url: https://www.nvidia.com/en-us/
+  date: May 2024 - Aug 2024
+  subtitle: Intern Research & Developer, Santa Clara, US
+  tags:
+    - tag: Pytorch
+    - tag: Python
+    - tag: Video Language Model
+  timeline-side: right
 
 - title: Baidu Inc. ERNIE
   title-url: https://wenxin.baidu.com/

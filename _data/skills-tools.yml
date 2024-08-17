@@ -5,13 +5,19 @@
 # - name: Git
 #   weight: 5
 
-- name: Git
+- name: git
+  weight: 4
+
+- name: bash
   weight: 5
 
-- name: Bash
-  weight: 5
+- name: SLURM
+  weight: 4
 
-- name: VS Code
+- name: Amazon S3
+  weight: 3
+
+- name: vscode
   weight: 5
 
 - name: ffmpeg
