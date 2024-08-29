@@ -17,7 +17,6 @@
 #     - tag: Rails
 #   timeline-side: right
 
-
 - title: New York University
   title-url: https://www.nyu.edu/
   date: Sep 2023 - Present
@@ -31,7 +30,7 @@
 - title: Nvidia
   title-url: https://www.nvidia.com/en-us/
   date: May 2024 - Aug 2024
-  subtitle: Intern Research & Developer, Santa Clara, US
+  subtitle: System Softawre Engineering Intern, Santa Clara, US
   tags:
     - tag: Pytorch
     - tag: Python
@@ -41,7 +40,7 @@
 - title: Baidu Inc. ERNIE
   title-url: https://wenxin.baidu.com/
   date: Dec 2022 - Aug 2023
-  subtitle: Intern Research & Developer, Shenzhen, China
+  subtitle: Research And Development Intern, Shenzhen, China
   tags:
     - tag: Pytorch
     - tag: Python

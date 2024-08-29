@@ -8,5 +8,9 @@
 - name: Pytorch
   weight: 5
 
+- name: PaddlePaddle
+  weight: 4
+
+
 - name: Transformers
   weight: 3
